@@ -5,7 +5,7 @@ from funcx.sdk.executor import FuncXExecutor
 from double_delayed import double_delayed
 
 fxc = FuncXClient()
-fx = FuncXExecutor(fxc, batch_enabled=False, batch_interval=1.0)
+fx = FuncXExecutor(fxc, batch_enabled=True, batch_interval=1.0)
 
 # tutorial endpoint (switch to your own endpoint to run much faster)
 ep_id = '4b116d3c-1703-4f8f-9f6f-39921e5864df'
